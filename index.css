@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+
+}
+.secao-topo{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.952);
+}
+.container{
+    padding: 50px;
+   
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.container-menu{
+    display: flex;
+    gap: 15px;
+}
+.container-menu a{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.container-logo span{
+    color: rgb(64, 64, 236);
+}
+/* Estilo da parte banner */
+.secao-banner{
+    display: flex;
+    height: 100vh;
+    background-image: url(assets/img-fundo.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    
+}
+.container-banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  
+    
+}
+.container-titu{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+   background-color: rgba(107, 161, 25, 0.603);
+    padding: 70px;
+    border: 2px solid rgb(255, 255, 255);
+}
+.secao-bemvindo{
+    text-align: center;
+    padding: 80px;
+}
+.container-box{
+    margin: 35px;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    
+}
+.card-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 3px solid rgb(30, 184, 56);
+    width: 350px;
+}
+.card-box a{
+    margin: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+
+}
+
+.container-img-box img{
+    width: 100%;
+}
+.texto-sobre{
+    font-size: 20px;
+    line-height: 45px;
+}
+.secao-rota{
+    text-align: center;
+    padding: 80px;
+    line-height: 55px;
+}
+iframe{
+    margin-top: 30px;
+}
+.secao-sobre{
+    text-align: center;
+    padding: 50px;
+  
+}
+.container-box-sobre{
+    gap: 25px;
+    align-items: center;
+    max-width: 1000px;
+     display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    
+   
+ 
+}
+.card-sobre{
+   box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 400px;
+    height: 100px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+.container-imagem-sobre{
+    margin: 5px;
+    border:  1px solid green;
+    width: 100px;
+}
+.container-imagem-sobre img{
+    width: 100%;
+
+}
+.container-texto{
+    
+    text-align: justify ;
+    border: 1px solid blue;
+    width: 340px;
+}
+.secao-sobre{
+    border:2px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
