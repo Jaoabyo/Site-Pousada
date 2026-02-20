@@ -118,7 +118,6 @@ iframe{
 .secao-sobre{
     text-align: center;
     padding: 50px;
-   
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -129,11 +128,13 @@ iframe{
    
 }
 .container-box-sobre{
-    min-width: 100%;
+    border: 1px solid rgb(146, 145, 145);
+    max-width: 1024px;
+    align-items: center;
     margin: 25px;
     gap: 20px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-wrap: wrap;
    
     
